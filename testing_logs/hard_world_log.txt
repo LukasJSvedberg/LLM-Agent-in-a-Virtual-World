@@ -1,0 +1,1519 @@
+=== Step 1 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (10, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -8, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 2 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (9, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -7, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 3 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (8, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -6, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 4 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (7, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -5, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 5 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (6, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -4, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 6 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (5, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -3, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 7 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -2, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 8 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (3, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': -1, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_LEFT
+
+=== Step 9 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 15), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 10 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 14), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -9}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 11 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 13), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -8}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 12 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 12), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -7}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 13 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 11), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -6}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 14 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 10), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -5}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 15 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 9), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -4}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 16 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 8), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -3}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 17 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 7), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 18 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  B  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 6), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': -1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 19 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  . AB  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 5), 'box_pos': (2, 5), 'deliver_pos': (19, 18), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 0}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP', 'PICK_UP']
+Chosen action:
+PICK_UP
+
+=== Step 20 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 17, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 21 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (3, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 16, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 22 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 15, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 23 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (5, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 14, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 24 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (6, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 13, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 25 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (7, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 12, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 26 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (8, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 11, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 27 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (9, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 10, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 28 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (10, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 9, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 29 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (11, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 8, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 30 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (12, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 7, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 31 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  A  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (13, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 6, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 32 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  A  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (14, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 5, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 33 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (15, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 4, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 34 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (16, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 3, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 35 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (17, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 2, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 36 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (18, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 1, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 37 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 5), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 13}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 38 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 6), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 12}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 39 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 7), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 11}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 40 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 8), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 10}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 41 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 9), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 9}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 42 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 10), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 8}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 43 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 11), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 7}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 44 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 12), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 6}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 45 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 13), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 5}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 46 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 14), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 4}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 47 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 15), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 3}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 48 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 16), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 49 ===
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  D
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  A
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (19, 17), 'box_pos': None, 'deliver_pos': (19, 18), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+Package not delivered

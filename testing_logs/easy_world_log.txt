@@ -1,0 +1,420 @@
+C:\Users\lukas\PycharmProjects\LLM_Package_Robot\.venv\Scripts\python.exe C:\Users\lukas\PycharmProjects\LLM_Package_Robot\main.py 
+
+=== Step 1 ===
+ .  .  .  .  D
+ .  .  B  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ A  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (0, 0), 'box_pos': (2, 3), 'deliver_pos': (4, 4), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 2, 'y_dist_to_target': 3}
+Valid actions:
+['MOVE_RIGHT', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 2 ===
+ .  .  .  .  D
+ .  .  B  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  A  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (1, 0), 'box_pos': (2, 3), 'deliver_pos': (4, 4), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 1, 'y_dist_to_target': 3}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 3 ===
+ .  .  .  .  D
+ .  .  B  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  A  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 0), 'box_pos': (2, 3), 'deliver_pos': (4, 4), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 3}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 4 ===
+ .  .  .  .  D
+ .  .  B  .  .
+ .  .  .  .  .
+ .  .  A  .  .
+ .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 1), 'box_pos': (2, 3), 'deliver_pos': (4, 4), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 5 ===
+ .  .  .  .  D
+ .  .  B  .  .
+ .  .  A  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 2), 'box_pos': (2, 3), 'deliver_pos': (4, 4), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 6 ===
+ .  .  .  .  D
+ .  . AB  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: False
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 3), 'box_pos': (2, 3), 'deliver_pos': (4, 4), 'has_box': False, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 0}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP', 'PICK_UP']
+Chosen action:
+PICK_UP
+
+=== Step 7 ===
+ .  .  .  .  D
+ .  .  A  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (2, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 2, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 8 ===
+ .  .  .  .  D
+ .  .  .  A  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (3, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 1, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_RIGHT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_RIGHT
+
+=== Step 9 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 10 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 11 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 12 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 13 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 14 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 15 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 16 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 17 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 18 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 19 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 20 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 21 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 22 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 23 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_DOWN
+
+=== Step 24 ===
+ .  .  .  .  D
+ .  .  .  .  .
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 2), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 2}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 25 ===
+ .  .  .  .  D
+ .  .  .  .  A
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 3), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': False, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 1}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'MOVE_UP']
+Chosen action:
+MOVE_UP
+
+=== Step 26 ===
+ .  .  .  . AD
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+ .  .  .  .  .
+Has box: True
+Task complete: False
+
+Observation:
+{'agent_pos': (4, 4), 'box_pos': None, 'deliver_pos': (4, 4), 'has_box': True, 'at_deliver': True, 'goal': 'Pick up the box and deliver it to the delivery location', 'x_dist_to_target': 0, 'y_dist_to_target': 0}
+Valid actions:
+['MOVE_LEFT', 'MOVE_DOWN', 'DROP']
+Chosen action:
+DROP
+Package delivered
+
+Process finished with exit code 0

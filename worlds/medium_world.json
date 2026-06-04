@@ -1,0 +1,8 @@
+{
+  "grid_width": 10,
+  "grid_height": 10,
+  "agent_position": [0, 0],
+  "box_position": [9, 1],
+  "has_box": false,
+  "delivery_position": [1, 9]
+}
